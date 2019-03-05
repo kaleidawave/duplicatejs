@@ -6,6 +6,6 @@ for (let index = 0; index < docs.length; index++) {
     for (let iter = 0; iter < (num - 1); iter++) {
         docs[index].innerHTML += doc;
     }
-    docs[index].attributes.removeNamedItem('data-duplicate');
-    docs[index].classList.remove('duplicatejs');
+    // docs[index].attributes.removeNamedItem('data-duplicate');
+    // docs[index].classList.remove('duplicatejs');
 }

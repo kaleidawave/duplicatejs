@@ -6,7 +6,7 @@ Duplicate is a simple Javascript script for duplicating HTML elements. Given a n
 
 Simply import it into your HTML (Make sure it is deferred to make it run once the DOM is loaded)
 ```
-<script defer src=""></script>
+<script defer src="https://cdn.jsdelivr.net/gh/kaleidawave/duplicatejs/duplicate.js"></script>
 ```
 
 Then given a node with a child
@@ -18,7 +18,7 @@ Then given a node with a child
 
 Will be transformed into:
 ```
-<div class="">
+<div class="duplicatejs" data-duplicate="5">
     <p> Hello </p>
     <p> Hello </p>
     <p> Hello </p>
