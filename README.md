@@ -5,19 +5,19 @@ Duplicate is a simple Javascript script for duplicating HTML elements. Given a n
 ### How to use:
 
 Simply import it into your HTML (Make sure it is deferred to make it run once the DOM is loaded)
-```
-<script defer src="https://cdn.jsdelivr.net/gh/kaleidawave/duplicatejs/duplicate.js"></script>
+```html
+<script defer src="https://cdn.jsdelivr.net/gh/kaleidawave/duplicatejs/duplicate.min.js"></script>
 ```
 
 Then given a node with a child
-```
+```html
 <div class="duplicatejs" data-duplicate="5">
     <p> Hello </p>
 </div>
 ```
 
 Will be transformed into:
-```
+```html
 <div class="duplicatejs" data-duplicate="5">
     <p> Hello </p>
     <p> Hello </p>
