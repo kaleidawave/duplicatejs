@@ -1,6 +1,6 @@
 # Duplicate.js
 
-Duplicate is a simple Javascript script for duplicating HTML elements. Given a node with children, Duplicate will clone the *first* child node by a number specified.
+Duplicate is a simple Javascript script for duplicating HTML elements. Given a node with children, Duplicate will clone the **first** child node by a number specified.
 
 ### How to use:
 
@@ -11,14 +11,14 @@ Simply import it into your HTML (Make sure it is deferred to make it run once th
 
 Then given a node with a child
 ```html
-<div class="duplicatejs" data-duplicate="5">
+<div data-duplicate="5">
     <p> Hello </p>
 </div>
 ```
 
 Will be transformed into:
 ```html
-<div class="duplicatejs" data-duplicate="5">
+<div data-duplicate="5">
     <p> Hello </p>
     <p> Hello </p>
     <p> Hello </p>
@@ -27,4 +27,4 @@ Will be transformed into:
 </div>
 ```
 
-(data-duplicate refers to the final number of elements)
+(data-duplicate refers to the **final** number of elements)
